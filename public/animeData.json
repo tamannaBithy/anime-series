@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "Naruto Uzumak",
+        "image": "images/image-1.jpg",
+        "age": 12,
+        "salary": 10000,
+        "movie": "Your Name"
+    },
+    {
+        "id": 2,
+        "name": "Spike Spiege",
+        "image": "images/image-2.jpg",
+        "age": 19,
+        "salary": 25000,
+        "movie": "Cowboy Bebop"
+    },
+    {
+        "id": 3,
+        "name": "Levi Ackerman",
+        "image": "images/image-3.jpg",
+        "age": 14,
+        "salary": 15000,
+        "movie": "Attack on Titan"
+    },
+    {
+        "id": 4,
+        "name": "Saitama",
+        "image": "images/image4.jpg",
+        "age": 21,
+        "salary": 20000,
+        "movie": "One Punch Man"
+    },
+    {
+        "id": 5,
+        "name": "Portagas D Ace",
+        "image": "images/image5.jpg",
+        "age": 16,
+        "salary": 50000,
+        "movie": "One Piece"
+    },
+    {
+        "id": 6,
+        "name": "Meliodas",
+        "image": "images/image6.jpg",
+        "age": 13,
+        "salary": 40000,
+        "movie": "The Seven Deadly Sins"
+    },
+    {
+        "id": 7,
+        "name": "Shoto Todoroki",
+        "image": "images/image7.jpg",
+        "age": 18,
+        "salary": 30500,
+        "movie": "My Hero Academia"
+    },
+    {
+        "id": 8,
+        "name": "Killua Zaoldyeck",
+        "image": "images/image8.jpg",
+        "age": 20,
+        "salary": 41000,
+        "movie": "Hunter X Hunter"
+    },
+    {
+        "id": 9,
+        "name": "Lelouch Lamperouge",
+        "image": "images/image9.jpg",
+        "age": 24,
+        "salary": 53000,
+        "movie": "Code Geass"
+    },
+    {
+        "id": 10,
+        "name": "Edward Elric",
+        "image": "images/image10.jpg",
+        "age": 22,
+        "salary": 23000,
+        "movie": "Fullmetal Alchemist"
+    },
+    {
+        "id": 11,
+        "name": "Light Yagami",
+        "image": "images/image11.jpg",
+        "age": 17,
+        "salary": 55000,
+        "movie": "Death Note"
+    },
+    {
+        "id": 12,
+        "name": "Tetsuo Shima",
+        "image": "images/image12.jpg",
+        "age": 23,
+        "salary": 65000,
+        "movie": "Akira"
+    }
+]
