@@ -7,7 +7,8 @@ const Info = (props) => {
 
     return (
         <div>
-            <h5>Selected Animes : {info.length}</h5>
+            <h6>Selected Animes : {info.length}</h6>
+            <br />
             {
                 info.map(anime =>
                     <div >

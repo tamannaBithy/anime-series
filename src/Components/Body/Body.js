@@ -32,8 +32,8 @@ const Body = () => {
                 </div>
 
 
-                <div className="col-3">
-                    <h3>Total Anime : {animes.length}</h3>
+                <div className="col-3 info-color position-sticky">
+                    <h4 className="fw-bold">Total Anime : {animes.length}</h4>
                     <Info info={info}></Info>
                 </div>
             </div>

@@ -1,0 +1,9 @@
+.container h1{
+    font-family: 'Neucha', cursive;
+    font-weight: bold;
+    color: #B34180;
+}
+
+.container p{
+    color: gray;
+}

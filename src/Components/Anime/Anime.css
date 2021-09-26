@@ -2,8 +2,25 @@
     height: 450px;
 }
 
+.card:hover{
+    background-color: #FCEEF5;
+}
 .card img{
     margin-top: 10px;
     height: 150px;
     clip-path: circle();
+}
+
+.card-body h5{
+    color: #d0307a;
+    font-family: 'Neucha', cursive;
+    font-weight: bold;
+}
+
+.select-btn{
+    background-color: #f7cad0 !important;
+}
+
+.card:hover .select-btn{
+    background-color: #d55d92!important;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlusSquare } from '@fortawesome/free-solid-svg-icons';
+import { faUserPlus } from '@fortawesome/free-solid-svg-icons';
 import './Anime.css'
 
 
@@ -21,8 +21,8 @@ const Anime = (props) => {
                     <p>Making Cost: ${salary}</p>
                 </div>
                 <div className="mb-3">
-                    <button onClick={() => handleAddInfo(props.anime)} type="button" class="btn btn-light">
-                        <FontAwesomeIcon icon={faPlusSquare} className="mx-2" />
+                    <button onClick={() => handleAddInfo(props.anime)} type="button" className="btn select-btn">
+                        <FontAwesomeIcon icon={faUserPlus} className="mx-2" />
                     Select This Character</button>
                 </div>
             </div>
