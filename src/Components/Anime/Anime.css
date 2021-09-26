@@ -1,0 +1,9 @@
+.card-height{
+    height: 450px;
+}
+
+.card img{
+    margin-top: 10px;
+    height: 150px;
+    clip-path: circle();
+}
