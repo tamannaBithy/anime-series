@@ -19,6 +19,10 @@ const Anime = (props) => {
                     <p>Age: {age}</p>
                     <p>Best Movie: {movie}</p>
                     <p>Making Cost: ${salary}</p>
+                    <div className="d-flex justify-content-around">
+                        <i class="fab fa-facebook-f circle-icon"></i>
+                        <i class="fab fa-twitter circle-icon"></i>
+                    </div>
                 </div>
                 <div className="mb-3">
                     <button onClick={() => handleAddInfo(props.anime)} type="button" className="btn select-btn">

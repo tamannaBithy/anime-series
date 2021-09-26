@@ -8,10 +8,24 @@ const Body = () => {
     const [animes, setAnimes] = useState([]);
     const [info, setInfo] = useState([]);
 
+    // useEffect(() => {
+    //     fetch('./animeData.JSON')
+    //         .then(res => res.json())
+    //         .then(data => setAnimes(data))
+    // }, [])
+
     useEffect(() => {
-        fetch('./animeData.JSON')
-            .then(res => res.json())
-            .then(data => setAnimes(data))
+        async function fetchData() {
+            try {
+                const res = await fetch('./animeData.JSON');
+                const data = await res.json();
+                setAnimes(data)
+            }
+            catch (error) {
+                console.log(error)
+            }
+        };
+        fetchData();
     }, [])
 
 
@@ -23,6 +37,7 @@ const Body = () => {
     return (
         <div className="container">
             <div className="row">
+
                 <div className="col-9  mb-4">
                     <div className="row row-cols-3 row-cols-md-3 g-4">
                         {

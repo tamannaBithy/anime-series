@@ -5,6 +5,12 @@
 .card:hover{
     background-color: #FCEEF5;
 }
+
+.card-height:hover img{
+    transform: scale(1.1);
+    transition: transform 4s;
+}
+
 .card img{
     margin-top: 10px;
     height: 150px;
@@ -23,4 +29,19 @@
 
 .card:hover .select-btn{
     background-color: #d55d92!important;
+}
+
+.circle-icon{
+    background: #f5f3f4;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+    padding: 2px;
+}
+
+.card:hover .circle-icon{
+    border: 1px solid gray;
 }
